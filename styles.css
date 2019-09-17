@@ -1,17 +1,55 @@
-* {
-  margin:0px;
-  padding:0px;
-}
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+ 
+            /*Para class punto*/
+            .rojo{
+                color: red;
+            }
+            /*Para id verde*/
+            #verde{
+                color:green;
+            }
+            .right{
+                text-align: right;
+            }
+            .cursiva{
+                font-style:italic;
+            }
+            .negrita{
+                font-weight:bold;
+            }
+            .mayus{
+                text-transform: uppercase;;
+            }
+            .subra{
+                text-decoration: underline;
+            }
+            .margen{
+                margin:5em;
+            }
+            .google{
+                font-size:5em;
+                text-align: center;
+            }
+            img{
+                border:dashed #fa8072;
+                cursor:pointer;
+                box-shadow: 15px 10px 42px 5px grey;
+            }
+            .udacity{
+                text-transform:uppercase;
+                color:#8001ff;
+                text-decoration:underline;
+                font-family: Arial, Helvetica, sans-serif;
+                cursor:pointer;
+                font-size:60px;
+            }
+            body{
+                margin:20px;
+                background-color:antiquewhite;
+            }
+            .top{
+                background-image: url(imagen.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                color:red;
+            }
